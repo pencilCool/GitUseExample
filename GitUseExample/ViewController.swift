@@ -19,7 +19,12 @@ class ViewController: UIViewController {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
+    
+    
+    @IBAction func buttonClicked(_ sender: UIButton) {
+        print("This is a Git tutorial")
+    }
 
-
+    
 }
 
